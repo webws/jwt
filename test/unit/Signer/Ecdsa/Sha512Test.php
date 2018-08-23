@@ -10,8 +10,10 @@ namespace Lcobucci\JWT\Signer\Ecdsa;
 /**
  * @author Luís Otávio Cobucci Oblonczyk <lcobucci@gmail.com>
  * @since 2.1.0
+ *
+ * @requires PHP < 7.1
  */
-class Sha512Test extends \PHPUnit_Framework_TestCase
+class Sha512Test extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test
